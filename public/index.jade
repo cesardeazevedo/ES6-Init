@@ -1,0 +1,18 @@
+doctype
+html
+  head
+    link(rel='stylesheet' href='/css/style.css')
+
+  body
+    h1 ES6
+
+    ng-input(theme='fumi' label='Name' ng-model='name' icon='icon icon--fumi mdi mdi-account')
+
+    div(ui-view)
+
+    script(src='jspm_packages/system.js')
+    script(src='config.js')
+    script(src='dist/app.min.js')
+    // Development environment
+    //- script.
+      //- System.import('/app/app');
