@@ -1,6 +1,5 @@
 'use strict'
 
-
 import HomeController from './controllers/home.controller'
 import AboutController  from './controllers/about.controller'
 import { Module, Route, Inject } from 'app/shared/decorators'

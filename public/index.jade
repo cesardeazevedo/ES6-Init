@@ -4,11 +4,28 @@ html
     link(rel='stylesheet' href='/css/style.css')
 
   body
-    h1 ES6
+    .row.center-xs
+      .col-xs-6
+        h1 APP ES6
+        br
+        .row.center-xs
+          .col-xs-1
+            a(href='#') PT
+          .col-xs-1
+            a(href='#') EN
+          .col-xs-1
+            a(href='#') DE
 
-    ng-input(theme='fumi' label='Name' ng-model='name' icon='icon icon--fumi mdi mdi-account')
-
-    div(ui-view)
+        hr
+        .row.center-xs.nav
+          .col-xs-2
+            a(ui-sref='home') Home
+          .col-xs-2
+            a(ui-sref='about') About
+          .col-xs-2
+            a(ui-sref='login.signin') Login
+        .page
+          div(ui-view)
 
     script(src='jspm_packages/system.js')
     script(src='config.js')
