@@ -20,6 +20,8 @@
       "angular-ui-router": "github:angular-ui/ui-router@^0.2.15",
       "clean-css": "npm:clean-css@^3.3.9",
       "css": "github:systemjs/plugin-css@^0.1.13",
+      "flexboxgrid": "npm:flexboxgrid@^6.2.0",
+      "lodash": "npm:lodash@^3.10.1",
       "mdi": "npm:mdi@^1.1.70",
       "michaelzoidl/babel-root-import": "github:michaelzoidl/babel-root-import@^1.0.1",
       "ng-input": "npm:ng-input@^0.0.7",
